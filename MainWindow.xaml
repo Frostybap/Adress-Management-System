@@ -1,0 +1,19 @@
+﻿<Window x:Class="_3.Address_Management_System.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3.Address_Management_System"
+        mc:Ignorable="d"
+        Title="Address Management System" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="button_AddStaff" Content="Add Staff" HorizontalAlignment="Left" Height="32" Margin="243,163,0,0" VerticalAlignment="Top" Width="140" Click="button_AddStaff_Click"/>
+        <Button x:Name="button_ModifyStaff" Content="Modify Staff" HorizontalAlignment="Left" Height="32" Margin="401,163,0,0" VerticalAlignment="Top" Width="140" Click="button_ModifyStaff_Click"/>
+        <Button x:Name="button_AddStudent" Content="Add Student" HorizontalAlignment="Left" Height="32" Margin="243,228,0,0" VerticalAlignment="Top" Width="140" Click="button_AddStudent_Click"/>
+        <Button x:Name="button_ModifyStudent" Content="Modify Student" HorizontalAlignment="Left" Height="32" Margin="401,228,0,0" VerticalAlignment="Top" Width="140" Click="button_ModifyStudent_Click"/>
+        <Button x:Name="button_ViewPersons" Content="View Persons" HorizontalAlignment="Left" Height="32" Margin="243,294,0,0" VerticalAlignment="Top" Width="140" Click="button_ViewPersons_Click"/>
+        <Button x:Name="button_Export" Content="Export to File" HorizontalAlignment="Left" Height="32" Margin="401,294,0,0" VerticalAlignment="Top" Width="140" Click="button_Export_Click"/>
+        <Label x:Name="label_ApplicationTitle" Content="Address Management System" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="121,40,0,0" FontSize="36" FontWeight="ExtraBold" FontFamily="Elephant"/>
+
+    </Grid>
+</Window>
